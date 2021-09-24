@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edwin's Website Quick Start</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div>
+        <div class="top-container hidden1 floating-bottom-right hide-on-mobile-flex">
+            <div class="social-div">
+                <a href="#"><img height="20" width="auto" src="icons/twitter.svg" alt="" class="icons"></a>
+                <a href="#"><img height="20" width="auto" src="icons/facebook.svg" alt="" class="icons"></a>
+                <a href="#"><img height="20" width="auto" src="icons/google.svg" alt="" class="icons"></a>
+                <a href="#"><img height="20" width="auto" src="icons/instagram.svg" alt="" class="icons"></a>
+                <a href="#"><img height="20" width="auto" src="icons/email.svg" alt="" class="icons"></a>
+            </div>
+            <div class="contact-div">
+                <p><img height="10" width="auto" src="./icons/old-typical-phone.svg" alt=""></p>
+                <p>+234 8054807297</p>
+            </div>
+        </div>
+        <div class="navbar bg-site">
+            <div class="navbar__left">
+                <a href="/" class="navbar__left--homelink">
+                    <img height="35" width="auto" src="./img/quickstart.png" alt="Logo Image" class="site-logo">
+                    <h3 class="site-title">Strapilicious</h3>
+                </a>
+                <img id="harmburger" class="hide-on-desktop" height="50" width="auto" src="./icons/icons8-menu.svg" alt="">
+            </div>
+            <div class="navbar__right">
+                <ul id="menuitems" class="menu-items hide-on-mobile">
+                    <li>
+                        <a href="/about.html" class="menu-item">About</a>
+                    </li>
+                    <li>
+                        <a href="/services.html" class="menu-item">Services</a>
+                    </li>
+                    <li>
+                        <a href="/blog.html" class="menu-item">Blog</a>
+                    </li>
+                    <li>
+                        <a href="/contact.html" class="menu-item">Contact</a>
+                    </li>
+                    <input id="search-input" class="search-input" type="text" placeholder="Search...">&nbsp;
+                    <a id="toggle-search" href="#"><img height="20" width="auto" src="icons/loupe_white.svg" alt="" class="icons"></a>                
+                    <img class="user-img menu-item block" height="30" src="./img/user.png" alt="">
+                    <img class="" height="10" width="8" src="icons/caret-down.svg" alt="" style="cursor: pointer;">
+                </ul>
+            </div>
+        </div>
+        <div class="pages">
+        <div class="pages__header">
+            <h1>Contact Us</h1>
+            <hr>
+            <p>Use the form below to send us any feedback or inquiry. We are glad to hear from you</p>
+        </div>
+        <div class="contact__page">
+            <div class="contact__box">
+            <form action="/contact.html" method="POST">
+                <div class="contact-input">
+                    <label for="name">Name</label>
+                    <input type="text" name="name">
+                </div>
+                <div class="contact-input">
+                    <label for="email">Email</label>
+                    <input type="text" name="email">
+                </div>
+                <div class="contact-input">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="contact-input">
+                    <button>Submit</button>
+                </div>
+            </form>
+            </div>
+            <div class="right__sidebar">
+                <h3>Recent Articles</h3>
+                <hr>
+                <div class="recent__posts">
+                    <img src="./img/posts/adorable-adult-boys-brothers-341378.jpg" alt="">
+                    <h4 class="title">Marvel Realeases What If Episode 7</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                </div>
+                <hr class="highlight__rule">
+                <div class="recent__posts">
+                    <img src="./img/posts/woman-carrying-baby-2162084.jpg" alt="">
+                    <h4 class="title">Marvel Realeases What If Episode 7</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                </div>
+                <hr class="highlight__rule">
+                <div class="recent__posts">
+                    <img src="./img/posts/family-walking-on-path-1682497.jpg" alt="">
+                    <h4 class="title">Marvel Realeases What If Episode 7</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                </div>
+                <hr class="highlight__rule">
+                <div class="recent__posts">
+                    <img src="./img/posts/girl-and-woman-sitting-on-brown-rock-1096352.jpg" alt="">
+                    <h4 class="title">Marvel Realeases What If Episode 7</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                </div>
+                <hr class="highlight__rule">
+                <div class="recent__posts">
+                    <img src="./img/posts/man-standing-beside-his-wife-teaching-their-child-how-to-1128318.jpg" alt="">
+                    <h4 class="title">Marvel Realeases What If Episode 7</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="footer">
+        Strapilicious | Copyright &#169; 2021 by Edwin Okugbo
+    </div>
+</body>
+<script src="./js/settings.js"></script>
+<script src="./js/main.js"></script>
+</html>
